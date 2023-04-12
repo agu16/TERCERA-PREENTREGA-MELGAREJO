@@ -1,0 +1,12 @@
+<form method="post">
+    {% csrf_token %}
+    <label for="nombre">nombre:</label>
+    <input type="text" name="nombre"><br>
+    <label for="genero">genero:</label>
+    <input type="text" name="genero"><br>
+    <label for="autor">autor:</label>
+    <input type="text" name="autor"><br>
+    <label for="editorial">editorial:</label>
+    <input type="text" name="editorial"><br>
+    <input type="submit" value="Crear">
+</form>

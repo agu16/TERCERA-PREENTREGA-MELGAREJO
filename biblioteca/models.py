@@ -4,6 +4,6 @@ from django.db import models
 
 class Libros (models.Model):
     nombre = models.CharField(max_length=40)
-    edicion = models.IntegerField()
+    genero = models.CharField(max_length=40)
     autor =  models.CharField(max_length=40)
     editorial = models.CharField(max_length=40)
